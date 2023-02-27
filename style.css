@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar {
+    background-color: black;
+    border-width: 9px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#links {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links:hover {
+    color: white;
+}
+
+#link-container {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#images {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+}
+a {
+    color: grey;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+a:hover { 
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.icon {
+    color: grey;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
